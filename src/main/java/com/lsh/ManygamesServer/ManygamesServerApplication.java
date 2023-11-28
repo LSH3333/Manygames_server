@@ -1,0 +1,13 @@
+package com.lsh.ManygamesServer;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ManygamesServerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ManygamesServerApplication.class, args);
+	}
+
+}
