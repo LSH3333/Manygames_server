@@ -3,7 +3,7 @@ package com.lsh.ManygamesServer.repository;
 import com.lsh.ManygamesServer.GameName;
 import com.lsh.ManygamesServer.domain.Rank;
 import com.lsh.ManygamesServer.dto.RankDto;
-import jakarta.persistence.EntityManager;
+import javax.persistence.EntityManager;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 

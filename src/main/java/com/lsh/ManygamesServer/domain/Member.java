@@ -1,10 +1,6 @@
 package com.lsh.ManygamesServer.domain;
 
-
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
+import javax.persistence.*;
 import lombok.Data;
 
 @Entity

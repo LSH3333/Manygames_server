@@ -1,7 +1,7 @@
 package com.lsh.ManygamesServer.repository;
 
 import com.lsh.ManygamesServer.domain.Member;
-import jakarta.persistence.EntityManager;
+import javax.persistence.EntityManager;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 
