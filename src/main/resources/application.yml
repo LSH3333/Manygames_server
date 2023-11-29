@@ -6,13 +6,13 @@ spring:
     driver-class-name: org.postgresql.Driver
     platform: postgres
     # local
-    url: jdbc:postgresql://localhost:5432/manygames
-    username: admin_jake
-    password: admin_jake
+#    url: jdbc:postgresql://localhost:5432/manygames
+#    username: admin_jake
+#    password: admin_jake
     # heroku deploy
-#    url: jdbc:postgresql://ec2-34-197-91-131.compute-1.amazonaws.com/dckofr3ptkpa9b
-#    username: mpcdhjuocwciio
-#    password: 3fc888680efc3d57d8a90a3f46246d90d6913bf5e1be8bcbffb54c7b616b0b3c
+    url: jdbc:postgresql://ec2-44-213-228-107.compute-1.amazonaws.com/d9ivcvqc6p0pk7
+    username: iootdmxjembepr
+    password: dcb16c622c442337eaf836cdfea14341611436afc40c9eab570d0a5d5c9c245f
 
     maxActive: 10
     maxIdle: 5
